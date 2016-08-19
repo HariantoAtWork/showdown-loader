@@ -1,0 +1,28 @@
+{
+  "name": "showdown-loader",
+  "version": "1.0.0",
+  "description": "Markdown (showdown-ghost) loader for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/HariantoAtWork/showdown-loader.git"
+  },
+  "keywords": [
+    "showdown-loader",
+    "webpack",
+    "markdown",
+    "showdown-ghost"
+  ],
+  "author": "Harianto van Insulinde",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/HariantoAtWork/showdown-loader/issues"
+  },
+  "homepage": "https://github.com/HariantoAtWork/showdown-loader#readme",
+  "dependencies": {
+    "showdown-ghost": "^0.4.0"
+  }
+}
