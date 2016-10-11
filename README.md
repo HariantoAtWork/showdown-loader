@@ -25,6 +25,21 @@ module.exports = {
 
 See `webpack` documentation.
 
+## Optional
+
+If you already have `html-loader` included you can do this:
+
+```js
+module.exports = {
+  module: {
+    loaders: [{
+      test:   /\.md/,
+      loader: 'html!showdown'
+    }]
+  }
+};
+```
+
 ## License
 
 MIT (http://www.opensource.org/licenses/mit-license.php)
